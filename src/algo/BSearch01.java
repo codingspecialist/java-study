@@ -11,22 +11,22 @@ public class BSearch01 {
         Arrays.sort(arr);
 
         // 2. 검색
-        if(10 == arr[2]){
+        if (10 == arr[2]) {
             System.out.println("10를 찾았습니다.");
         }
 
-        if(10 < arr[2]){ // false
+        if (10 < arr[2]) { // false
             System.out.println("10는 작아요");
 
-            if(10 == arr[1]){
+            if (10 == arr[1]) {
                 System.out.println("10를 찾았습니다.");
             }
-        }else{
+        } else {
             System.out.println("10은 커요");
 
-            if(10 == arr[3]){
+            if (10 == arr[3]) {
                 System.out.println("10을 찾았습니다.");
-            }else{
+            } else {
                 System.out.println("arr[4]번지에 10이 있습니다.");
             }
         }

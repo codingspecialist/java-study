@@ -24,8 +24,7 @@ public class BSearch04 {
         }
 
         if(target < arr[mid]){
-            mid = 1;fdsajklfjadsk/
-                    fdjsakfljaskl/
+            mid = 1;
         }
 
         if(target == arr[mid]){ // 0, 1, 2, 3, 4, [10], 11
