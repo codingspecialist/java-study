@@ -1,5 +1,10 @@
 package ex13;
 
+class 사람{}
+
+class 홍길동 extends 사람{}
+
+
 // new 할때 타입을 결정할 수 있게 해주는 제네릭
 class Box2<T>{
     T data;
